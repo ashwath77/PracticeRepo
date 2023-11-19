@@ -23,12 +23,17 @@ import python_util as pu
 # #6
 # print(pu.sum_of_even_odd_numbers(10))
 
-#7
-print(pu.prime_numbers(4))
-print(pu.prime_numbers(5))
-print(pu.prime_numbers(15))
+# #7
+# print(pu.prime_numbers(4))
+# print(pu.prime_numbers(5))
+# print(pu.prime_numbers(15))
 
-#
+#8
+print(pu.Highest_Common_Factor(12,16))
+print(pu.Highest_Common_Factor(24,36))
+print(pu.Highest_Common_Factor(3556,3444))
+
+#9
 
 
 

@@ -70,7 +70,14 @@ def prime_numbers(num):
 
 
 #8. Write a program to calculate HCF of Two given number.
+def Highest_Common_Factor(num1,num2):
+    hcf=1
+    for i in range(1,num1+1 or num2+1):
+        if num1%i==0 and num2%i==0:
+            hcf=i
+    print(hcf)
 
+#9. Write a program to calculate HCF of Two given number.
 
 
 
