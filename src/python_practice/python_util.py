@@ -75,9 +75,29 @@ def Highest_Common_Factor(num1,num2):
     for i in range(1,num1+1 or num2+1):
         if num1%i==0 and num2%i==0:
             hcf=i
-    print(hcf)
+    print("Highest common factor is : ",hcf)
 
-#9. Write a program to calculate HCF of Two given number.
+#9. Write a program to calculate LCF of Two given number.
+def Least_Common_Multiple(num1,num2):
+    hcf=1
+    for i in range(1,num1+1 or num2+1):
+        if num1%i==0 and num2%i==0:
+            hcf=i
+    lcm=hcf*(num1//hcf)*(num2//hcf)
+    print("least common multiple is : ",lcm)
+
+
+# 10. Write a program to print Fibonacci series of n terms where n is input
+# by user : 0 1 1 2 3 5 8 13 21 34 .....
+
+def Fibonacci_series(num):
+    a=0
+    b=1
+    for i in range(num):
+        print("Fibonacci numbers:",a,end=" ")
+        a,b = b,a+b
+
+
 
 
 
