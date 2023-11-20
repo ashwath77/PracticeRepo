@@ -28,12 +28,17 @@ import python_util as pu
 # print(pu.prime_numbers(5))
 # print(pu.prime_numbers(15))
 
-#8
-print(pu.Highest_Common_Factor(12,16))
-print(pu.Highest_Common_Factor(24,36))
-print(pu.Highest_Common_Factor(3556,3444))
+# #8
+# print(pu.Highest_Common_Factor(12,16))
+# print(pu.Highest_Common_Factor(24,36))
+# print(pu.Highest_Common_Factor(3556,3444))
 
 #9
+print(pu.Least_Common_Multiple(4,5))
+print(pu.Least_Common_Multiple(24,42))
+print(pu.Least_Common_Multiple(104,76))
 
+#10
+print(pu.Fibonacci_series(8))
 
 
